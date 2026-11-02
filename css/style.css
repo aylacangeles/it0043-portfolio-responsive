@@ -70,6 +70,17 @@ footer {
   padding-inline: var(--space-3);
 }
 
+.home-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.home-layout > section {
+  margin-block: 0;
+}
+
 header {
   padding-block: var(--space-4);
 }
